@@ -564,7 +564,7 @@
           d.y = (d.y + d.vy + H) % H;
           ctx.beginPath();
           ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(232,220,200,${d.a})`;
+          ctx.fillStyle = `rgba(13,31,15,${d.a})`;
           ctx.fill();
         });
         for (let i = 0; i < dots.length; i++) {
@@ -576,7 +576,7 @@
               ctx.beginPath();
               ctx.moveTo(dots[i].x, dots[i].y);
               ctx.lineTo(dots[j].x, dots[j].y);
-              ctx.strokeStyle = `rgba(232,220,200,${0.055 * (1 - dist / 95)})`;
+              ctx.strokeStyle = `rgba(13,31,15,${0.055 * (1 - dist / 95)})`;
               ctx.lineWidth = 0.6;
               ctx.stroke();
             }

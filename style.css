@@ -218,7 +218,7 @@ em  { font-style: italic; }
   overflow: hidden;
   background:
     linear-gradient(to bottom, rgba(13,31,15,0.91) 0%, rgba(10,26,12,0.87) 100%),
-    url('Img/hero-bg.jpg') center / cover no-repeat;
+    url('img/hero-bg.jpg') center / cover no-repeat;
 }
 
 #particles {

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THIRDTEEN — Creative &amp; Data Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────── -->
+  <nav id="nav">
+    <a class="nav-logo" href="#hero">THIRDTEEN</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#capabilities">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────── -->
+  <section id="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Creative &amp; Data Agency · Hanoi, Vietnam</span>
+      <div class="hero-ghost" aria-hidden="true">13</div>
+      <h1 class="hero-title">THIRDTEEN</h1>
+      <p class="hero-tagline">Where Strategic Thinking Meets Creative Execution</p>
+      <p class="hero-desc">Strategic Marketing · Data Analytics · Content Production · Brand Design · Business Intelligence</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-fill">View Our Work</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── TICKER ────────────────────────────────── -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Strategic Marketing</span><span class="sep">◆</span>
+      <span>Data Analytics</span><span class="sep">◆</span>
+      <span>Content Production</span><span class="sep">◆</span>
+      <span>Brand Design</span><span class="sep">◆</span>
+      <span>Business Intelligence</span><span class="sep">◆</span>
+      <span>Video Production</span><span class="sep">◆</span>
+      <span>Market Research</span><span class="sep">◆</span>
+      <span>Campaign Strategy</span><span class="sep">◆</span>
+      <span>Strategic Marketing</span><span class="sep">◆</span>
+      <span>Data Analytics</span><span class="sep">◆</span>
+      <span>Content Production</span><span class="sep">◆</span>
+      <span>Brand Design</span><span class="sep">◆</span>
+      <span>Business Intelligence</span><span class="sep">◆</span>
+      <span>Video Production</span><span class="sep">◆</span>
+      <span>Market Research</span><span class="sep">◆</span>
+      <span>Campaign Strategy</span><span class="sep">◆</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ─────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-text">
+          <span class="label reveal">Who We Are</span>
+          <h2 class="section-title reveal delay-1">Welcome to<br>THIRDTEEN</h2>
+          <div class="rule reveal delay-1"></div>
+          <p class="body-text reveal delay-2">
+            At THIRDTEEN, we believe creativity is most powerful when supported by data.
+            As a modern Creative &amp; Data Agency, we combine strategic thinking, analytical
+            rigour, and compelling storytelling to create meaningful business impact.
+          </p>
+          <p class="body-text reveal delay-2">
+            We help brands transform insights into action through market intelligence,
+            visual communication, and integrated marketing solutions — covering every
+            dimension of a modern campaign from raw data to final frame.
+          </p>
+          <div class="values-grid reveal delay-3">
+            <div class="value-chip"><span class="value-dot"></span>Insight-Driven</div>
+            <div class="value-chip"><span class="value-dot"></span>Creativity with Purpose</div>
+            <div class="value-chip"><span class="value-dot"></span>Collaboration</div>
+            <div class="value-chip"><span class="value-dot"></span>Continuous Innovation</div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal delay-2">
+          <div class="about-img-wrap">
+            <img src="Img/about-team.jpg" alt="THIRDTEEN team at work">
+            <div class="about-img-badge">THIRDTEEN · Hanoi</div>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-n" data-target="5">0</span>
+              <span class="stat-l">Specialists</span>
+            </div>
+            <div class="stat">
+              <span class="stat-n" data-target="6">0</span>
+              <span class="stat-l">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-n" data-target="4">0</span>
+              <span class="stat-l">Industries</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mission-bar reveal delay-2">
+        <p class="mission-quote">"To help brands make smarter decisions through the integration of creativity, data, and strategic thinking — becoming a trusted strategic partner for businesses seeking sustainable growth in the digital economy."</p>
+        <span class="mission-attr">— Mission Statement, THIRDTEEN</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CAPABILITIES ──────────────────────────── -->
+  <section id="capabilities">
+    <div class="container">
+      <span class="label reveal">What We Do</span>
+      <h2 class="section-title reveal delay-1">Core Capabilities</h2>
+      <div class="rule reveal delay-2"></div>
+
+      <div class="cap-grid">
+
+        <article class="cap-card reveal delay-1">
+          <div class="cap-num">01</div>
+          <h3>Data Analytics &amp;<br>Intelligence</h3>
+          <p>Market research, industry analysis, and dashboard development powered by Python, Pandas, Matplotlib, and ML interpretability with SHAP.</p>
+          <ul class="cap-tags">
+            <li>Market Research</li><li>Data Visualization</li>
+            <li>Industry Analysis</li><li>ML / SHAP</li>
+          </ul>
+        </article>
+
+        <article class="cap-card reveal delay-2">
+          <div class="cap-num">02</div>
+          <h3>Strategic<br>Planning</h3>
+          <p>End-to-end strategic frameworks grounding every creative decision in market reality — from segmentation to competitive analysis.</p>
+          <ul class="cap-tags">
+            <li>PESTEL Analysis</li><li>Porter's Five Forces</li>
+            <li>SWOT Analysis</li><li>Customer Journey</li>
+          </ul>
+        </article>
+
+        <article class="cap-card reveal delay-3">
+          <div class="cap-num">03</div>
+          <h3>Creative<br>Production</h3>
+          <p>From concept to final frame — art direction, short-form video scriptwriting, multi-platform content, and motion graphics that capture attention.</p>
+          <ul class="cap-tags">
+            <li>Video Production</li><li>Campaign Concepts</li>
+            <li>Scriptwriting</li><li>Motion Graphics</li>
+          </ul>
+        </article>
+
+        <article class="cap-card reveal delay-1">
+          <div class="cap-num">04</div>
+          <h3>Design &amp; Brand<br>Experience</h3>
+          <p>Visual identity systems, typography, UI/UX design, and brand consistency across every touchpoint — from logo to dashboard.</p>
+          <ul class="cap-tags">
+            <li>Brand Identity</li><li>Typography Systems</li>
+            <li>UI/UX Design</li><li>Visual Communication</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WORK ──────────────────────────────────── -->
+  <section id="work">
+    <div class="container">
+      <span class="label reveal">Selected Work</span>
+      <h2 class="section-title reveal delay-1">Featured Projects</h2>
+      <div class="rule reveal delay-2"></div>
+
+      <div class="work-grid">
+
+        <article class="work-card reveal delay-1">
+          <div class="work-img">
+            <img src="Img/proj-food.jpg" alt="Banh Mi Hoang Sa — Food & Beverage">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">01</span>
+              <span class="work-tag">Brand · Video · Identity</span>
+            </div>
+            <h3>Banh Mi Hoang Sa</h3>
+            <p>A full-service brand campaign — from customer persona development and cinematic scriptwriting to video production and a complete visual identity system.</p>
+            <div class="work-exec">
+              <span>Customer Persona</span><span>Storytelling</span>
+              <span>Video Production</span><span>Visual Identity</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">KH</div><div class="badge">PT</div><div class="badge">TL</div>
+              <span>Huong · Trang · Linh</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal delay-2">
+          <div class="work-img">
+            <img src="Img/proj-coffee.jpg" alt="Highlands Coffee — The Starting Point of Connection">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">02</span>
+              <span class="work-tag">Strategy · Account</span>
+            </div>
+            <h3>Highlands Coffee — The Starting Point of Connection</h3>
+            <p>Campaign concept development and audience analysis for Vietnam's leading coffee chain, translating human connection into a cohesive communication strategy.</p>
+            <div class="work-exec">
+              <span>Campaign Concept</span><span>Audience Analysis</span>
+              <span>Communication Planning</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">KH</div><div class="badge">YN</div>
+              <span>Huong · Nhi</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal delay-3">
+          <div class="work-img">
+            <img src="Img/proj-data.jpg" alt="Educational Data Analysis Project">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">03</span>
+              <span class="work-tag">Data · Dashboard</span>
+            </div>
+            <h3>Educational Data Analysis Project</h3>
+            <p>Visualised learning performance across grades 1–12, detecting critical anomalies in grades 7 and 8. Designed a user-friendly reporting dashboard.</p>
+            <div class="work-exec">
+              <span>Data Cleaning</span><span>Data Visualization</span>
+              <span>Dashboard Design</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">NG</div><div class="badge">TL</div>
+              <span>Giang · Linh</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal delay-1">
+          <div class="work-img">
+            <img src="Img/proj-telecom.jpg" alt="Global Telecom Equipment Industry Analysis">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">04</span>
+              <span class="work-tag">Data · Research</span>
+            </div>
+            <h3>Global Telecom Equipment Industry Analysis</h3>
+            <p>Comprehensive market analysis of the global telecommunications equipment sector — market mapping and competitive capacity evaluation.</p>
+            <div class="work-exec">
+              <span>Industry Analysis</span><span>Market Mapping</span>
+              <span>Strategic Assessment</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">NG</div>
+              <span>Nguyen Ngoc Hoang Giang</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal delay-2">
+          <div class="work-img">
+            <img src="Img/proj-fashion.jpg" alt="UNIQLO Product Launch Campaign">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">05</span>
+              <span class="work-tag">Marketing · Media</span>
+            </div>
+            <h3>UNIQLO Product Launch Campaign</h3>
+            <p>Analysed domestic consumer demographics and coordinated media publications for UNIQLO's product launch — bridging data insights with targeted media strategy.</p>
+            <div class="work-exec">
+              <span>Consumer Research</span><span>Media Coordination</span>
+              <span>Trend Analysis</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">YN</div>
+              <span>Truong Hoang Yen Nhi</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal delay-3">
+          <div class="work-img">
+            <img src="Img/proj-motion.jpg" alt="Visual Render Prompts">
+          </div>
+          <div class="work-body">
+            <div class="work-meta">
+              <span class="work-num">06</span>
+              <span class="work-tag">Video · Motion</span>
+            </div>
+            <h3>Visual Render Prompts</h3>
+            <p>Designed detailed visual scripts with strict requirements for motion and visual effects — bridging creative direction and technical video production.</p>
+            <div class="work-exec">
+              <span>Motion Design</span><span>Visual Scripting</span>
+              <span>Post-production</span>
+            </div>
+            <div class="work-team">
+              <div class="badge">PT</div>
+              <span>Phung Thuy Trang</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TEAM ──────────────────────────────────── -->
+  <section id="team">
+    <div class="container">
+      <span class="label reveal">The People Behind the Work</span>
+      <h2 class="section-title reveal delay-1">Our Team</h2>
+      <div class="rule reveal delay-2"></div>
+
+      <div class="team-grid">
+
+        <article class="team-card reveal delay-1">
+          <div class="team-photo">
+            <img src="Img/Huong.jpg" alt="Kieu Diem Huong">
+          </div>
+          <div class="team-body">
+            <span class="team-role">Creative Director</span>
+            <h3>Kieu Diem Huong</h3>
+            <p class="team-exp">5 years · Art direction &amp; digital content production</p>
+            <div class="team-skills">
+              <span>Creative Direction</span><span>Campaign Concepts</span>
+              <span>Storytelling</span><span>Short-form Video</span>
+            </div>
+            <ul class="team-projects">
+              <li>Banh Mi Hoang Sa</li>
+              <li>The Starting Point of Connection</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="team-card reveal delay-2">
+          <div class="team-photo">
+            <img src="Img/Giang.jpg" alt="Nguyen Ngoc Hoang Giang">
+          </div>
+          <div class="team-body">
+            <span class="team-role">Data Analyst &amp; Strategist</span>
+            <h3>Nguyen Ngoc Hoang Giang</h3>
+            <p class="team-exp">4 years · Market research &amp; data analytics</p>
+            <div class="team-skills">
+              <span>Python · Pandas</span><span>PESTEL</span>
+              <span>Porter's 5 Forces</span><span>ML / SHAP</span>
+            </div>
+            <ul class="team-projects">
+              <li>Global Telecom Industry Report</li>
+              <li>Educational Data Analysis</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="team-card reveal delay-3">
+          <div class="team-photo">
+            <img src="Img/Trang.jpg" alt="Phung Thuy Trang">
+          </div>
+          <div class="team-body">
+            <span class="team-role">Video Producer &amp; Content Creator</span>
+            <h3>Phung Thuy Trang</h3>
+            <p class="team-exp">3 years · Videography &amp; post-production</p>
+            <div class="team-skills">
+              <span>Video Production</span><span>Editing</span>
+              <span>Motion Design</span><span>Multi-platform</span>
+            </div>
+            <ul class="team-projects">
+              <li>Banh Mi Hoang Sa</li>
+              <li>Visual Render Prompts</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="team-card reveal delay-1">
+          <div class="team-photo">
+            <img src="Img/Nhi.jpg" alt="Truong Hoang Yen Nhi">
+          </div>
+          <div class="team-body">
+            <span class="team-role">Marketing &amp; Account Executive</span>
+            <h3>Truong Hoang Yen Nhi</h3>
+            <p class="team-exp">4 years · Client servicing &amp; project management</p>
+            <div class="team-skills">
+              <span>Account Management</span><span>Media Coordination</span>
+              <span>Consumer Research</span><span>Trend Analysis</span>
+            </div>
+            <ul class="team-projects">
+              <li>Highlands Coffee Campaign</li>
+              <li>UNIQLO Product Launch</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="team-card reveal delay-2">
+          <div class="team-photo">
+            <img src="Img/Linh.png" alt="Nguyen Thuy Linh">
+          </div>
+          <div class="team-body">
+            <span class="team-role">Art Director</span>
+            <h3>Nguyen Thuy Linh</h3>
+            <p class="team-exp">5 years · Graphic design &amp; visual identity</p>
+            <div class="team-skills">
+              <span>Brand Identity</span><span>Typography</span>
+              <span>UI/UX Design</span><span>Visual Systems</span>
+            </div>
+            <ul class="team-projects">
+              <li>Banh Mi Hoang Sa</li>
+              <li>Educational Data Dashboard</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY THIRDTEEN ─────────────────────────── -->
+  <section id="why">
+    <div class="container">
+      <span class="label reveal">Why Choose Us</span>
+      <h2 class="section-title reveal delay-1">Why THIRDTEEN</h2>
+      <div class="rule reveal delay-2"></div>
+
+      <div class="why-grid">
+        <div class="why-card reveal delay-1">
+          <div class="why-num">01</div>
+          <h3>Creative Excellence</h3>
+          <p>Every visual, script, and campaign is crafted with a strong aesthetic sense and deep understanding of audience psychology — storytelling that moves people.</p>
+        </div>
+        <div class="why-card reveal delay-2">
+          <div class="why-num">02</div>
+          <h3>Data Intelligence</h3>
+          <p>We never guess when we can measure. Our analytical backbone ensures every creative decision is validated by real market data and measurable outcomes.</p>
+        </div>
+        <div class="why-card reveal delay-3">
+          <div class="why-num">03</div>
+          <h3>Cross-Functional Collaboration</h3>
+          <p>Five specialists, one team. Our diverse skill set spans the full campaign lifecycle — from first insight to final delivery — without losing coherence.</p>
+        </div>
+        <div class="why-card reveal delay-2">
+          <div class="why-num">04</div>
+          <h3>Business Impact</h3>
+          <p>We measure success not by aesthetics alone but by tangible business results our work generates — growth, engagement, and lasting brand equity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-left">
+          <span class="label reveal">Get In Touch</span>
+          <h2 class="section-title reveal delay-1">Let's Build<br>Something Great</h2>
+          <div class="rule reveal delay-2"></div>
+          <p class="body-text reveal delay-2">
+            Whether you're looking to launch a brand, run a data-backed campaign,
+            or tell a story worth watching — THIRDTEEN is ready to be your
+            strategic partner.
+          </p>
+          <div class="contact-items reveal delay-3">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">sinhvien13@hsb.edu.vn</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Hanoi, Vietnam</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Agency Type</span>
+              <span class="contact-value">Creative &amp; Data Agency</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right reveal delay-2">
+          <div class="contact-card">
+            <span class="label">Our Philosophy</span>
+            <blockquote class="contact-quote">
+              "Creativity is most powerful<br>when supported by data."
+            </blockquote>
+            <div class="contact-card-footer">
+              <span class="contact-brand">THIRDTEEN</span>
+              <span class="contact-brand-sub">Creative &amp; Data Agency</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">THIRDTEEN</div>
+          <div class="footer-sub">Creative &amp; Data Agency</div>
+        </div>
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#capabilities">Services</a>
+          <a href="#work">Work</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 THIRDTEEN Creative &amp; Data Agency. All rights reserved.</p>
+        <p>Hanoi, Vietnam</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── SCRIPTS ────────────────────────────────── -->
+  <script>
+    /* Subtle cream particle canvas */
+    (function () {
+      const canvas = document.getElementById('particles');
+      const ctx    = canvas.getContext('2d');
+      let W, H, dots = [];
+
+      function resize() {
+        W = canvas.width  = canvas.offsetWidth;
+        H = canvas.height = canvas.offsetHeight;
+      }
+
+      function init(n) {
+        dots = Array.from({ length: n }, () => ({
+          x:  Math.random() * W,
+          y:  Math.random() * H,
+          r:  Math.random() * 1.3 + 0.3,
+          vx: (Math.random() - 0.5) * 0.25,
+          vy: (Math.random() - 0.5) * 0.25,
+          a:  Math.random() * 0.28 + 0.07,
+        }));
+      }
+
+      function frame() {
+        ctx.clearRect(0, 0, W, H);
+        dots.forEach(d => {
+          d.x = (d.x + d.vx + W) % W;
+          d.y = (d.y + d.vy + H) % H;
+          ctx.beginPath();
+          ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(232,220,200,${d.a})`;
+          ctx.fill();
+        });
+        for (let i = 0; i < dots.length; i++) {
+          for (let j = i + 1; j < dots.length; j++) {
+            const dx = dots[i].x - dots[j].x;
+            const dy = dots[i].y - dots[j].y;
+            const dist = Math.hypot(dx, dy);
+            if (dist < 95) {
+              ctx.beginPath();
+              ctx.moveTo(dots[i].x, dots[i].y);
+              ctx.lineTo(dots[j].x, dots[j].y);
+              ctx.strokeStyle = `rgba(232,220,200,${0.055 * (1 - dist / 95)})`;
+              ctx.lineWidth = 0.6;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(frame);
+      }
+
+      window.addEventListener('resize', () => { resize(); init(55); });
+      resize(); init(55); frame();
+    })();
+
+    /* Scroll reveal */
+    const revealObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+    /* Nav frosted glass on scroll */
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* Mobile burger */
+    document.getElementById('navBurger').addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+
+    /* Animated stat counters */
+    const statObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el  = e.target;
+        const end = +el.dataset.target;
+        let n = 0;
+        const tick = () => {
+          n = Math.min(n + 1, end);
+          el.textContent = n + (end >= 6 ? '+' : '');
+          if (n < end) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+        statObs.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.stat-n').forEach(el => statObs.observe(el));
+  </script>
+
+</body>
+</html>
